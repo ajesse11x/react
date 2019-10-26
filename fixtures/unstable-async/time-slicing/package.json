@@ -5,16 +5,20 @@
   "dependencies": {
     "glamor": "^2.20.40",
     "react": "../../../build/node_modules/react",
-    "react-dom": "../../../build/node_modules/react-dom",
+    "react-dom": "16.4.2",
     "react-markdown": "^3.2.0",
-    "react-scripts": "^1.1.4",
+    "react-scripts": "^3.0.0",
     "simple-cache-provider": "../../../build/node_modules/simple-cache-provider",
-    "victory": "^0.25.6"
+    "victory": "^0.25.6",
+    "snyk": "^1.239.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
