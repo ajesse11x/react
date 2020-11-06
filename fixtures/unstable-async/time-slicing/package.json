@@ -6,7 +6,7 @@
     "glamor": "^2.20.40",
     "react": "../../../build/node_modules/react",
     "react-dom": "../../../build/node_modules/react-dom",
-    "react-markdown": "^3.2.0",
+    "react-markdown": "^5.0.0",
     "react-scripts": "^1.1.4",
     "simple-cache-provider": "../../../build/node_modules/simple-cache-provider",
     "victory": "^0.25.6"
