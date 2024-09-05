@@ -2,7 +2,7 @@
   "private": true,
   "name": "browserify-dev-fixture",
   "dependencies": {
-    "browserify": "^13.3.0",
+    "browserify": "^16.5.2",
     "react": "link:../../../../build/node_modules/react",
     "react-dom": "link:../../../../build/node_modules/react-dom"
   },
