@@ -12,7 +12,7 @@
     "github-fork-ribbon-css": "^0.2.1",
     "react": "../../../build/node_modules/react",
     "react-dom": "../../../build/node_modules/react-dom",
-    "react-draggable": "^3.0.5",
+    "react-draggable": "^4.4.5",
     "simple-cache-provider": "../../../build/node_modules/simple-cache-provider"
   },
   "scripts": {
